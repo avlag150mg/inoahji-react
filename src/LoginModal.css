@@ -1,0 +1,54 @@
+
+/* === DESIGN-ONLY UPGRADE: REGISTRATION / LOGIN === */
+/* Logic untouched. Visual polish only. */
+
+.auth-overlay {
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(10px);
+}
+
+.auth-modal {
+  background: linear-gradient(180deg, #0f0f0f 0%, #0a0a0a 100%);
+  border: 1px solid rgba(255,255,255,0.06);
+  box-shadow:
+    0 30px 80px rgba(0,0,0,0.85),
+    inset 0 1px 0 rgba(255,255,255,0.03);
+}
+
+.auth-title {
+  letter-spacing: 0.5px;
+}
+
+.auth-subtitle {
+  opacity: 0.75;
+}
+
+.auth-modal input {
+  background: #111;
+  border: 1px solid #1f1f1f;
+}
+
+.auth-modal input:focus {
+  border-color: #ffffff;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.15);
+}
+
+.auth-submit {
+  background: #ffffff;
+  color: #000;
+  letter-spacing: 1px;
+}
+
+.auth-submit:hover {
+  background: #f2f2f2;
+}
+
+.auth-footer {
+  opacity: 0.75;
+}
+
+.link-btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1px;
+}

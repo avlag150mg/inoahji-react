@@ -1,0 +1,9 @@
+
+{
+  "products": [
+    { "id": "tee", "name": "iNOAHJI\nOVERSIZED TEE", "price": 60, "img": "assets/tee.svg" },
+    { "id": "hoodie", "name": "iNOAHJI ARCH\nHOODIE", "price": 200, "img": "assets/hoodie.svg" },
+    { "id": "pants", "name": "iNOAHJI WIDE\nLEG PANTS", "price": 150, "img": "assets/pants.svg" },
+    { "id": "short", "name": "iNOAHJI\nSHORT", "price": 30, "img": "assets/short.svg" }
+  ]
+}
